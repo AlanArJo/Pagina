@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(46, 45, 45);
+}
+
+.logo{
+    width: 10rem;
+}
+
+.nav-size{
+    min-height: 5rem;
+}
+
+ul .nav-link {
+    font-size: 1.6rem;
+}
+.btn-menu{
+    background: transparent;
+    width: 100%;
+}
+
+.btn-menu img{
+width: 10rem;
+}
+.bg-black{
+    background-color: black;
+}
+.dropdown-item:active{
+    background: transparent;
+}
+.parallax-container{
+    background: rgb(46, 45, 45) ;
+    padding: 2rem;
+}
+
+.parallax-container h3{
+    font-size: 3rem;
+}
+
+.parallax-one {
+    /* The image used */
+    background-image: url("../img/663-3840x2160-desktop-4k-red-dead-redemption-wallpaper-photo.jpg");
+  
+    /* Set a specific height */
+   min-height: 800px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax-two {
+    /* The image used */
+    background-image: url("../img/1246104.png ");
+  
+    /* Set a specific height */
+    min-height: 800px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }.parallax-three {
+    /* The image used */
+    background-image: url("../img/god-of-war-ragnarok-3840x2160-10662.jpg");
+  
+    /* Set a specific height */
+    min-height: 800px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .carousel-item img{
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+  }
+
